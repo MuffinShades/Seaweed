@@ -1,0 +1,41 @@
+{
+    "Graphics": {
+        "Shaders": {
+            "Font": {
+                "Frag": "../src/shaders/font_frag.glsl"
+            },
+            "Core": {
+                "Vert": "../src/shaders/def_vert.glsl",
+                "Frag": "../src/shaders/def_frag.glsl"
+            }
+        },
+        "Fonts": {
+            
+        },
+        "Models": {
+            "Test": {
+                "Chicken": {
+                    "mtl": "hen.mtl",
+                    "obj": "hen.obj"
+                }
+            }
+        }
+    },
+    "Vox": {
+        "Tex": {
+            "atlas": "vox/alphaTextureMC.png"
+        }
+    },
+    "Scripts": {
+
+    },
+    "Globe": {
+        "Ini": "moop.ini",
+        "Map": "global_map.json"
+    },
+    "Test": {
+        "Image": {
+            "asdf":"../test/asdf.png"
+        }
+    }
+}
